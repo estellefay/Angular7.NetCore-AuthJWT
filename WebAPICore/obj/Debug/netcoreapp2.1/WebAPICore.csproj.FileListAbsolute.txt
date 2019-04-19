@@ -3,7 +3,6 @@ E:\Projets\tuto2\WebAPICore\WebAPICore\bin\Debug\netcoreapp2.1\WebAPICore.runtim
 E:\Projets\tuto2\WebAPICore\WebAPICore\bin\Debug\netcoreapp2.1\WebAPICore.runtimeconfig.dev.json
 E:\Projets\tuto2\WebAPICore\WebAPICore\bin\Debug\netcoreapp2.1\WebAPICore.dll
 E:\Projets\tuto2\WebAPICore\WebAPICore\bin\Debug\netcoreapp2.1\WebAPICore.pdb
-E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.csprojAssemblyReference.cache
 E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.csproj.CoreCompileInputs.cache
 E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.RazorAssemblyInfo.cache
 E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.Assemb
 E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.RazorTargetAssemblyInfo.cache
 E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.dll
 E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.pdb
+E:\Projets\tuto2\WebAPICore\WebAPICore\obj\Debug\netcoreapp2.1\WebAPICore.csprojAssemblyReference.cache

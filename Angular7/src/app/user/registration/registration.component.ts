@@ -19,18 +19,27 @@ export class RegistrationComponent implements OnInit {
 
   // Quand on valide le formualire
   onSubmit() {
+    // On fait appel au services pour pouvoir envoyer les donner en post avec la methode register + subscribe
     this.service.register().subscribe(
+      // Si sa passe
       (res: any) => {
+        // Si sa passe
         if (res.succeeded) {
+          // reset le formulaire
           this.service.formModel.reset();
+          // Générer une pop up qui dit que c'est bon
           this.toastr.success('New user created!', 'Registration successful.');
+          // Sinon
         } else {
+
           res.errors.forEach(element => {
             switch (element.code) {
+              // Si l'erreur c'est le nom existe déjà, j'afficher
               case 'DuplicateUserName':
                 this.toastr.error('Username is already taken','Registration failed.');
                 break;
 
+                // Par default j'affiche
               default:
               this.toastr.error(element.description,'Registration failed.');
                 break;
@@ -38,6 +47,7 @@ export class RegistrationComponent implements OnInit {
           });
         }
       },
+      // Si erreur
       err => {
         console.log(err);
       }
